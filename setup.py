@@ -55,7 +55,7 @@ setup(
     keywords='thumbor aws',
     install_requires=[
         'python-dateutil',
-        'thumbor>=6.0.0,<7',
+        'thumbor>=7.0.0a5,<8',
         'tornado-botocore',
     ],
     extras_require={
