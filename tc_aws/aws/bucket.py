@@ -7,7 +7,8 @@
 import botocore.session
 from botocore.utils import fix_s3_host
 from tornado_botocore.base import Botocore
-from tornado.concurrent import return_future
+#from tornado.concurrent import return_future
+from tornado.concurrent import future as return_future
 from thumbor.utils import logger
 from thumbor.engines import BaseEngine
 
