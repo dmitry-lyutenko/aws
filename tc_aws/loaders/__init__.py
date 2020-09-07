@@ -6,7 +6,7 @@
 
 __all__ = ['_get_bucket_and_key', '_get_bucket', '_get_key', '_validate_bucket', '_use_http_loader', '_validate']
 
-import urllib2
+import urllib3
 import thumbor.loaders.http_loader as http_loader
 
 def _get_bucket_and_key(context, url):
